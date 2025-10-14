@@ -6,7 +6,7 @@ const experiences = [
   {
     title: "Senior Blockchain Developer",
     company: "CryptoFinance Labs",
-    period: "2022 - Present",
+    period: "2032 - Present",
     description: "Leading development of DeFi protocols and smart contract architecture for institutional clients.",
     achievements: [
       "Architected yield aggregation protocol managing $50M+ TVL",
@@ -17,7 +17,7 @@ const experiences = [
   {
     title: "Financial Analyst & Blockchain Consultant",
     company: "BlockTrade Solutions",
-    period: "2020 - 2022",
+    period: "2030 - 2032",
     description: "Analyzed market trends and developed trading strategies for cryptocurrency portfolios.",
     achievements: [
       "Developed algorithmic trading bot with 85% win rate",
@@ -28,7 +28,7 @@ const experiences = [
   {
     title: "Junior Developer",
     company: "TechStart Innovations",
-    period: "2019 - 2020",
+    period: "2029 - 2030",
     description: "Built web applications and explored blockchain integration for financial services.",
     achievements: [
       "Implemented Web3 wallet integration for payment system",
@@ -40,18 +40,18 @@ const experiences = [
 
 const education = [
   {
-    degree: "Master of Science in Financial Technology",
-    institution: "MIT Sloan School of Management",
-    period: "2017 - 2019",
+    degree: "Master of Technology in Blockchain",
+    institution: "Indian Institute of Technology Bombay",
+    period: "2027 - 2029",
     achievements: [
       "Thesis: Decentralized Finance and Smart Contract Security",
       "GPA: 3.9/4.0",
     ],
   },
   {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    period: "2013 - 2017",
+    degree: "Bachelor of Technology in Computer Science",
+    institution: "Pandit Deendayal Energy University",
+    period: "2023 - 2027",
     achievements: [
       "Minor in Economics",
       "Dean's List all semesters",

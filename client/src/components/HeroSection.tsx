@@ -73,7 +73,7 @@ export default function HeroSection() {
             <Instagram className="w-6 h-6 text-primary" />
           </a>
           <a
-            href="https://github.com/maalavpatadiya"
+            href="https://github.com/lordknox"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-elevate active-elevate-2 p-2 rounded-md"

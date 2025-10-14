@@ -101,15 +101,15 @@ export default function ContactSection() {
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span data-testid="text-email">maalav.patadiya@example.com</span>
+                  <span data-testid="text-email">patadiya.maalav@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary" />
-                  <span data-testid="text-phone">+1 (555) 123-4567</span>
+                  <span data-testid="text-phone">+91 8320555696</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <span data-testid="text-location">San Francisco, CA</span>
+                  <span data-testid="text-location">Rajkot, Gujarat, India</span>
                 </div>
               </CardContent>
             </Card>
