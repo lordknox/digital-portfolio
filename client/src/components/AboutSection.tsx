@@ -16,8 +16,8 @@ export default function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
             <Avatar className="w-64 h-64 border-4 border-primary/20">
-              <AvatarImage src={profileImage} alt="Alex Morgan" />
-              <AvatarFallback className="text-6xl">AM</AvatarFallback>
+              <AvatarImage src={profileImage} alt="Maalav Patadiya" />
+              <AvatarFallback className="text-6xl">MP</AvatarFallback>
             </Avatar>
           </div>
 

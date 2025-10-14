@@ -30,7 +30,7 @@ export default function Navigation() {
             className="text-xl font-bold bg-gradient-to-r from-primary to-chart-2 bg-clip-text text-transparent"
             data-testid="link-logo"
           >
-            AM
+            MP
           </button>
 
           <div className="hidden md:flex items-center gap-1">

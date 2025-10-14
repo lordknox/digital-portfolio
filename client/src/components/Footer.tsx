@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <p className="text-sm text-muted-foreground" data-testid="text-copyright">
-              © {currentYear} Alex Morgan. All rights reserved.
+              © {currentYear} Maalav Patadiya. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground mt-1">
               Blockchain Developer & Financial Analyst
@@ -18,7 +18,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://linkedin.com/in/alexmorgan"
+              href="https://linkedin.com/in/maalavpatadiya"
               target="_blank"
               rel="noopener noreferrer"
               className="hover-elevate active-elevate-2 p-2 rounded-md"
@@ -27,7 +27,7 @@ export default function Footer() {
               <Linkedin className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://instagram.com/alexmorgan"
+              href="https://instagram.com/maalavpatadiya"
               target="_blank"
               rel="noopener noreferrer"
               className="hover-elevate active-elevate-2 p-2 rounded-md"
@@ -36,7 +36,7 @@ export default function Footer() {
               <Instagram className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://github.com/alexmorgan"
+              href="https://github.com/maalavpatadiya"
               target="_blank"
               rel="noopener noreferrer"
               className="hover-elevate active-elevate-2 p-2 rounded-md"

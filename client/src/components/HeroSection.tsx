@@ -23,7 +23,7 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
         <h1 className="text-6xl md:text-7xl font-bold tracking-tight mb-6">
           <span className="bg-gradient-to-r from-primary via-chart-2 to-chart-3 bg-clip-text text-transparent">
-            Alex Morgan
+            Maalav Patadiya
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-4" data-testid="text-tagline">
@@ -55,7 +55,7 @@ export default function HeroSection() {
 
         <div className="flex items-center justify-center gap-4">
           <a
-            href="https://linkedin.com/in/alexmorgan"
+            href="https://linkedin.com/in/maalavpatadiya"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-elevate active-elevate-2 p-2 rounded-md"
@@ -64,7 +64,7 @@ export default function HeroSection() {
             <Linkedin className="w-6 h-6 text-primary" />
           </a>
           <a
-            href="https://instagram.com/alexmorgan"
+            href="https://instagram.com/maalavpatadiya"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-elevate active-elevate-2 p-2 rounded-md"
@@ -73,7 +73,7 @@ export default function HeroSection() {
             <Instagram className="w-6 h-6 text-primary" />
           </a>
           <a
-            href="https://github.com/alexmorgan"
+            href="https://github.com/maalavpatadiya"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-elevate active-elevate-2 p-2 rounded-md"

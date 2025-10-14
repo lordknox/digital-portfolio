@@ -101,7 +101,7 @@ export default function ContactSection() {
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span data-testid="text-email">alex.morgan@example.com</span>
+                  <span data-testid="text-email">maalav.patadiya@example.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary" />
@@ -120,34 +120,34 @@ export default function ContactSection() {
               </CardHeader>
               <CardContent className="space-y-3">
                 <a
-                  href="https://linkedin.com/in/alexmorgan"
+                  href="https://linkedin.com/in/maalavpatadiya"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 hover-elevate p-3 rounded-md"
                   data-testid="link-contact-linkedin"
                 >
                   <Linkedin className="w-5 h-5 text-primary" />
-                  <span>linkedin.com/in/alexmorgan</span>
+                  <span>linkedin.com/in/maalavpatadiya</span>
                 </a>
                 <a
-                  href="https://instagram.com/alexmorgan"
+                  href="https://instagram.com/maalavpatadiya"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 hover-elevate p-3 rounded-md"
                   data-testid="link-contact-instagram"
                 >
                   <Instagram className="w-5 h-5 text-primary" />
-                  <span>instagram.com/alexmorgan</span>
+                  <span>instagram.com/maalavpatadiya</span>
                 </a>
                 <a
-                  href="https://github.com/alexmorgan"
+                  href="https://github.com/maalavpatadiya"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 hover-elevate p-3 rounded-md"
                   data-testid="link-contact-github"
                 >
                   <Github className="w-5 h-5 text-primary" />
-                  <span>github.com/alexmorgan</span>
+                  <span>github.com/maalavpatadiya</span>
                 </a>
               </CardContent>
             </Card>
