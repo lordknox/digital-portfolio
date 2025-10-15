@@ -45,7 +45,7 @@ const education = [
     period: "2027 - 2029",
     achievements: [
       "Thesis: Decentralized Finance and Smart Contract Security",
-      "GPA: 3.9/4.0",
+      "GPA: 9.16/10.0",
     ],
   },
   {
