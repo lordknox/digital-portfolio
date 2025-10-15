@@ -55,7 +55,7 @@ export default function HeroSection() {
 
         <div className="flex items-center justify-center gap-4">
           <a
-            href="https://linkedin.com/in/maalavpatadiya"
+            href="http://linkedin.com/in/maalav-patadiya-dummy-account-72b79b38a"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-elevate active-elevate-2 p-2 rounded-md"
@@ -64,7 +64,7 @@ export default function HeroSection() {
             <Linkedin className="w-6 h-6 text-primary" />
           </a>
           <a
-            href="https://instagram.com/maalavpatadiya"
+            href="https://instagram.com/maalavpatadiyadummy"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-elevate active-elevate-2 p-2 rounded-md"

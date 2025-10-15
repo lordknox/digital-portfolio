@@ -120,7 +120,7 @@ export default function ContactSection() {
               </CardHeader>
               <CardContent className="space-y-3">
                 <a
-                  href="https://linkedin.com/in/maalavpatadiya"
+                  href="http://linkedin.com/in/maalav-patadiya-dummy-account-72b79b38a"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 hover-elevate p-3 rounded-md"
@@ -130,7 +130,7 @@ export default function ContactSection() {
                   <span>linkedin.com/in/maalavpatadiya</span>
                 </a>
                 <a
-                  href="https://instagram.com/maalavpatadiya"
+                  href="https://instagram.com/maalavpatadiyadummy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 hover-elevate p-3 rounded-md"
@@ -140,14 +140,14 @@ export default function ContactSection() {
                   <span>instagram.com/maalavpatadiya</span>
                 </a>
                 <a
-                  href="https://github.com/maalavpatadiya"
+                  href="https://github.com/lordknox"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 hover-elevate p-3 rounded-md"
                   data-testid="link-contact-github"
                 >
                   <Github className="w-5 h-5 text-primary" />
-                  <span>github.com/maalavpatadiya</span>
+                  <span>github.com/lordknox</span>
                 </a>
               </CardContent>
             </Card>

@@ -18,7 +18,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://linkedin.com/in/maalavpatadiya"
+              href="http://linkedin.com/in/maalav-patadiya-dummy-account-72b79b38a"
               target="_blank"
               rel="noopener noreferrer"
               className="hover-elevate active-elevate-2 p-2 rounded-md"
@@ -27,7 +27,7 @@ export default function Footer() {
               <Linkedin className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://instagram.com/maalavpatadiya"
+              href="https://instagram.com/maalavpatadiyadummy"
               target="_blank"
               rel="noopener noreferrer"
               className="hover-elevate active-elevate-2 p-2 rounded-md"
@@ -36,7 +36,7 @@ export default function Footer() {
               <Instagram className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://github.com/maalavpatadiya"
+              href="https://github.com/lordknox"
               target="_blank"
               rel="noopener noreferrer"
               className="hover-elevate active-elevate-2 p-2 rounded-md"
