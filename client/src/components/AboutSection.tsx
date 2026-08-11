@@ -24,7 +24,7 @@ export default function AboutSection() {
           <div className="space-y-6">
             <Card className="p-6">
               <p className="text-lg leading-relaxed" data-testid="text-bio">
-                I am a B.Tech Computer Engineering student at Pandit Deendayal Energy University (PDEU) with a CGPA of 8.71/10.0. As a Software Development Engineer Intern at WeTheDevelopers, GATE CS & GATE DA qualifier, and lead researcher on a ₹1,27,000 university-funded quantum-safe cryptography project, I specialize in building robust full-stack platforms, distributed real-time systems, and high-performance hardware architectures.
+                I am a Computer Engineering student, software developer, and researcher who loves working across the entire technology stack. My passion lies at the intersection of scalable software architecture, intelligent systems, and cybersecurity. I view engineering as a balance of design and discipline: writing clean, production-ready code while digging deep into hardware-level security and computational theory. Always curious and adaptability-focused, I enjoy tackling open-ended problems that require both strategic thinking and hands-on execution
               </p>
             </Card>
 
