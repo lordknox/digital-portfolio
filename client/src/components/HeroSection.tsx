@@ -26,12 +26,11 @@ export default function HeroSection() {
             Maalav Patadiya
           </span>
         </h1>
-        <p className="text-xl md:text-2xl text-muted-foreground mb-4" data-testid="text-tagline">
-          Blockchain Developer & Financial Analyst
+        <p className="text-xl md:text-2xl text-primary font-medium mb-4" data-testid="text-tagline">
+          B.Tech Computer Engineering — Pandit Deendayal Energy University
         </p>
         <p className="text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-12" data-testid="text-subtitle">
-          Crafting decentralized solutions and innovative fintech applications
-          with expertise in DeFi, smart contracts, and algorithmic trading
+          Software Development Engineer · Full-Stack & Mobile Developer · Quantum Cryptography Researcher
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
@@ -55,22 +54,13 @@ export default function HeroSection() {
 
         <div className="flex items-center justify-center gap-4">
           <a
-            href="http://linkedin.com/in/maalav-patadiya-dummy-account-72b79b38a"
+            href="https://linkedin.com/in/maalav-patadiya"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-elevate active-elevate-2 p-2 rounded-md"
             data-testid="link-linkedin"
           >
             <Linkedin className="w-6 h-6 text-primary" />
-          </a>
-          <a
-            href="https://instagram.com/maalavpatadiyadummy"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover-elevate active-elevate-2 p-2 rounded-md"
-            data-testid="link-instagram"
-          >
-            <Instagram className="w-6 h-6 text-primary" />
           </a>
           <a
             href="https://github.com/lordknox"

@@ -1,69 +1,69 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase, GraduationCap, Award, Users } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const experiences = [
   {
-    title: "Senior Blockchain Developer",
-    company: "CryptoFinance Labs",
-    period: "2032 - Present",
-    description: "Leading development of DeFi protocols and smart contract architecture for institutional clients.",
+    title: "Software Development Engineer (Intern)",
+    company: "WeTheDevelopers",
+    period: "Jun 2026 – Jul 2026",
+    description: "Served as primary developer during a 6-week SDE internship focused on building real-time city intelligence platforms.",
     achievements: [
-      "Architected yield aggregation protocol managing $50M+ TVL",
-      "Reduced gas costs by 40% through contract optimization",
-      "Led team of 5 developers in building cross-chain bridge",
-    ],
-  },
-  {
-    title: "Financial Analyst & Blockchain Consultant",
-    company: "BlockTrade Solutions",
-    period: "2030 - 2032",
-    description: "Analyzed market trends and developed trading strategies for cryptocurrency portfolios.",
-    achievements: [
-      "Developed algorithmic trading bot with 85% win rate",
-      "Conducted due diligence for 15+ ICO/IEO projects",
-      "Created risk assessment framework for DeFi investments",
-    ],
-  },
-  {
-    title: "Junior Developer",
-    company: "TechStart Innovations",
-    period: "2029 - 2030",
-    description: "Built web applications and explored blockchain integration for financial services.",
-    achievements: [
-      "Implemented Web3 wallet integration for payment system",
-      "Developed RESTful APIs for crypto price aggregation",
-      "Contributed to open-source DeFi projects",
+      "Built PulseCity, a real-time city intelligence dashboard, delivering live weather, AQI, and traffic metrics across 15 Indian cities",
+      "Converted Figma design mockups and wireframes into responsive, production-ready Flutter UI components",
+      "Linked individual UI screens and components into a cohesive navigation flow for end-to-end mobile app functionality",
     ],
   },
 ];
 
 const education = [
   {
-    degree: "Master of Technology in Blockchain",
-    institution: "Indian Institute of Technology Bombay",
-    period: "2027 - 2029",
+    degree: "Bachelor of Technology in Computer Engineering",
+    institution: "Pandit Deendayal Energy University (PDEU), Gujarat",
+    period: "2023 – 2027",
     achievements: [
-      "Thesis: Decentralized Finance and Smart Contract Security",
-      "GPA: 9.16/10.0",
+      "CGPA: 8.71 / 10.0",
+      "Coursework: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Software Engineering, Compiler Design",
     ],
   },
   {
-    degree: "Bachelor of Technology in Computer Science",
-    institution: "Pandit Deendayal Energy University",
-    period: "2023 - 2027",
+    degree: "12th Standard (GSEB)",
+    institution: "Modi Higher Secondary School, Rajkot, Gujarat",
+    period: "2021 – 2023",
     achievements: [
-      "Minor in Economics",
-      "Dean's List all semesters",
+      "Percentage: 68.62%",
+      "Science Stream with Mathematics & Physics focus",
+    ],
+  },
+  {
+    degree: "10th Standard (ICSE)",
+    institution: "Saint Paul's School, Gujarat",
+    period: "2019 – 2021",
+    achievements: [
+      "Percentage: 83.60%",
+      "Indian Certificate of Secondary Education",
     ],
   },
 ];
 
-const certifications = [
-  "Certified Blockchain Developer (CBD)",
-  "Ethereum Developer Certification",
-  "CFA Level II Candidate",
-  "AWS Certified Solutions Architect",
+const responsibilities = [
+  {
+    role: "Hospitality Head",
+    organization: "Science & Technical Committee, PDEU",
+    period: "2023 – 2026",
+    description: "Progressed from Hospitality Associate to Subcommittee Member to Head over three years, managing hospitality and logistics for speakers, sponsors, and attendees across department events.",
+  },
+  {
+    role: "Event Management Head",
+    organization: "Computer Society of India (CSI), PDEU Student Chapter",
+    period: "Jul 2025 – Jun 2026",
+    description: "Led planning and execution of technical and non-technical events; coordinated with teams, sponsors, and participants to ensure smooth operations.",
+  },
+];
+
+const achievements = [
+  "Qualified GATE CS and GATE DA in first attempt (3rd year) — Mar 2026",
+  "NPTEL: Understanding Incubation & Entrepreneurship, IIT Bombay — Oct 2025",
 ];
 
 export default function ExperienceSection() {
@@ -71,9 +71,9 @@ export default function ExperienceSection() {
     <section id="experience" className="py-20 bg-card">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Experience & Education</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Experience & Background</h2>
           <p className="text-muted-foreground text-lg">
-            A journey of continuous learning and innovation
+            A journey of engineering excellence, academic rigor, and leadership
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export default function ExperienceSection() {
           <div>
             <h3 className="text-2xl font-semibold mb-8 flex items-center gap-2">
               <Briefcase className="w-6 h-6 text-primary" />
-              Professional Experience
+              Work Experience
             </h3>
             <div className="space-y-6">
               {experiences.map((exp, index) => (
@@ -119,7 +119,7 @@ export default function ExperienceSection() {
               <GraduationCap className="w-6 h-6 text-primary" />
               Education
             </h3>
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
               {education.map((edu, index) => (
                 <Card key={index} data-testid={`education-${index}`}>
                   <CardHeader>
@@ -140,23 +140,48 @@ export default function ExperienceSection() {
                 </Card>
               ))}
             </div>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-semibold mb-8 flex items-center gap-2">
+              <Users className="w-6 h-6 text-primary" />
+              Positions of Responsibility
+            </h3>
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              {responsibilities.map((resp, index) => (
+                <Card key={index} data-testid={`responsibility-${index}`}>
+                  <CardHeader>
+                    <div className="flex items-start justify-between gap-4">
+                      <div>
+                        <CardTitle className="text-lg">{resp.role}</CardTitle>
+                        <CardDescription>{resp.organization}</CardDescription>
+                      </div>
+                      <Badge variant="outline">{resp.period}</Badge>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">{resp.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Certifications</CardTitle>
+                <CardTitle className="text-lg flex items-center gap-2">
+                  <Award className="w-5 h-5 text-primary" />
+                  Certifications & Key Achievements
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  {certifications.map((cert, index) => (
-                    <Badge
-                      key={index}
-                      variant="secondary"
-                      data-testid={`cert-${index}`}
-                    >
-                      {cert}
-                    </Badge>
+                <ul className="space-y-3">
+                  {achievements.map((item, index) => (
+                    <li key={index} className="flex items-start gap-2 text-sm" data-testid={`achievement-${index}`}>
+                      <span className="text-primary font-mono">▸</span>
+                      <span>{item}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </CardContent>
             </Card>
           </div>

@@ -9,7 +9,7 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">About Me</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Passionate about revolutionizing finance through blockchain technology
+            Passionate about full-stack engineering, distributed systems, and hardware-accelerated security
           </p>
         </div>
 
@@ -24,10 +24,7 @@ export default function AboutSection() {
           <div className="space-y-6">
             <Card className="p-6">
               <p className="text-lg leading-relaxed" data-testid="text-bio">
-                With over 5 years of experience in blockchain development and financial analysis,
-                I specialize in creating innovative solutions at the intersection of technology
-                and finance. My expertise spans smart contract development, DeFi protocols, and
-                algorithmic trading systems.
+                I am a B.Tech Computer Engineering student at Pandit Deendayal Energy University (PDEU) with a CGPA of 8.71/10.0. As a Software Development Engineer Intern at WeTheDevelopers, GATE CS & GATE DA qualifier, and lead researcher on a ₹1,27,000 university-funded quantum-safe cryptography project, I specialize in building robust full-stack platforms, distributed real-time systems, and high-performance hardware architectures.
               </p>
             </Card>
 
@@ -36,19 +33,19 @@ export default function AboutSection() {
               <ul className="space-y-3" data-testid="list-expertise">
                 <li className="flex items-start gap-3">
                   <span className="text-primary font-mono">▸</span>
-                  <span>Building secure and scalable smart contracts on Ethereum and Polygon</span>
+                  <span>Building full-stack mobile & web applications with Flutter, React.js, and Django REST Framework</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary font-mono">▸</span>
-                  <span>Developing DeFi protocols with focus on yield optimization and liquidity management</span>
+                  <span>Architecting backend microservices with Redis caching, Celery task queues, PostgreSQL, and Docker</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary font-mono">▸</span>
-                  <span>Creating algorithmic trading strategies and portfolio management systems</span>
+                  <span>Researching hardware realization of Quantum-Safe Public Key Encryption (PKE/KEM) on FPGA architecture</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary font-mono">▸</span>
-                  <span>Conducting comprehensive financial analysis and market research</span>
+                  <span>Engineering traffic & sensor analytics pipelines using CARLA Simulator, PySpark, and Machine Learning</span>
                 </li>
               </ul>
             </Card>

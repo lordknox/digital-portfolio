@@ -12,28 +12,19 @@ export default function Footer() {
               © {currentYear} Maalav Patadiya. All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground mt-1">
-              Blockchain Developer & Financial Analyst
+              Computer Engineering Student & Software Development Engineer
             </p>
           </div>
 
           <div className="flex items-center gap-4">
             <a
-              href="http://linkedin.com/in/maalav-patadiya-dummy-account-72b79b38a"
+              href="https://linkedin.com/in/maalav-patadiya"
               target="_blank"
               rel="noopener noreferrer"
               className="hover-elevate active-elevate-2 p-2 rounded-md"
               data-testid="link-footer-linkedin"
             >
               <Linkedin className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
-            </a>
-            <a
-              href="https://instagram.com/maalavpatadiyadummy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover-elevate active-elevate-2 p-2 rounded-md"
-              data-testid="link-footer-instagram"
-            >
-              <Instagram className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
             <a
               href="https://github.com/lordknox"
