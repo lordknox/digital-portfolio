@@ -1,0 +1,19 @@
+name: DIGITAL PORTFOLIO CI PIPELINE
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs: 
+  verify-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name : Check out repository code
+        uses: actions/checkout@v4
+      - name : Verify Environment
+        run: |
+          echo "Github Actions is successfully connected!"
+          echo "Current environment OS:"
+          uname -a
